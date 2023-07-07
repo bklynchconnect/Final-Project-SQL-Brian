@@ -6,7 +6,9 @@ Answer the following questions and provide the SQL queries used to find the answ
 
 SQL Queries:
 
-
+```sql
+SELECT country, SUM(revenue) FROM economic_table GROUP BY country ORDER BY revenue DESC
+```
 
 Answer:
 
